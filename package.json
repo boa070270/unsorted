@@ -1,0 +1,22 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "library of different unsorted codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boa070270/unsorted.git"
+  },
+  "keywords": [
+    "unsorted"
+  ],
+  "author": "Oleh Bilous",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boa070270/unsorted/issues"
+  },
+  "homepage": "https://github.com/boa070270/unsorted#readme"
+}
