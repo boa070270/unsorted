@@ -1,0 +1,16 @@
+{
+  "name": "gmat-icon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postnit": "wget 'https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.codepoints' 'https://github.com/google/material-design-icons/blob/master/font/MaterialIconsOutlined-Regular.codepoints' 'https://github.com/google/material-design-icons/blob/master/font/MaterialIconsRound-Regular.codepoints' 'https://github.com/google/material-design-icons/blob/master/font/MaterialIconsSharp-Regular.codepoints' 'https://github.com/google/material-design-icons/blob/master/font/MaterialIconsTwoTone-Regular.codepoints'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js && sass styles.scss styles.css && sass regular.scss regular.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}

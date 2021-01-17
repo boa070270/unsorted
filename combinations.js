@@ -1,5 +1,5 @@
 /**
- * call callback with all n!/k!(n-k)! combinations
+ * call callback with all n!/(n-k)! combinations
  * nkCombination([1,2,3], (a)=>console.log(a.join('')))
  * nkCombination('123', (a)=>console.log(a.join('')))
  * ---
